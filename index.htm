@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+<title>HOME | SDL SMARTLABS</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="indexstyle.css">
+</head>
+<body onload="myfunction()">
+  <div id="loader"></div>
+  <nav id="navbar">
+   
+    <ul >
+      <b>
+      <li><a href="#home">MEMBERS</a></li>
+      <li><a href="#P">BLOG</a></li>
+      <li><a href="contact.htm">CONTACT US</a></li> 
+      <li><a href="team.htm">TEAM</a></li>
+      <li><a href="products.htm">PRODUCTS</a></li>
+      <li><a href="index.htm">HOME</a></li>
+    </ul>                
+  </nav>
+   <section>
+     <div class="banner" >
+      <br><br><br>
+      <br>
+      <br>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="quote">"ADVANCING CONCEPTS</div>
+      <div class="of">OF</div>
+      <div class="iot">IOT IN EVERYDAY LIFE"</div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     <div>
+      <br>
+      <br>
+      <br>
+      <br>
+     </div>
+     <div class="ser">
+      <p>
+      <span class="h1" style="font-size: larger;" >OUR  </span>
+      <span class="h2" style="font-size: larger;" >  SERVICES </span>
+      </p>
+    </div>
+      
+      <div class="box"></div>
+      <br>
+      <br>
+      <br>
+
+
+
+
+
+   </section>
+    <script type="text/javascript">
+    var preloader = document.getElementById('loader');
+      function myfunction(){
+        preloader.style.display = 'none';
+      }
+      var lastScrollTop = 0;
+        navbar = document.getElementById("navbar");
+        window.addEventListener("scroll",function(){
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              if(scrollTop>lastScrollTop)
+              {
+                navbar.style.top="-170px";
+              } else{
+                navbar.style.top="0";
+              }
+              lastScrollTop=scrollTop;
+        })
+        
+    </script>
+</body>
+</html>
