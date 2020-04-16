@@ -58,14 +58,9 @@ body {
     
     width: 100%;
     height: 1000px;
-    background-color: rgb(15, 0, 29);
+    background-color: rgb(214, 192, 235);
   }
-  div.box 
-  {
-    width: 100%;
-    height: 300px;
-    background-color: black;
-  }
+  
   p{
     text-align: center;
     font-size: 45px;
@@ -75,24 +70,59 @@ body {
     color: rgb(32, 75, 218);
     
   }
-  div.quote{
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 60px;
-    color: aliceblue;
+
+
+
+  div.gallery {
+    background-color: rgb(192, 193, 194);
+    border: 1px solid rgb(116, 114, 126);
+    box-shadow: 0px 5px 20px rgb(95, 97, 100);
+    border-radius: 10px;
+    object-fit: scale-down;
   }
-  div.of{
-    font-family: sans-serif;
-    color: aliceblue;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 60px;
+  
+  
+  div.gallery img {
+    object-fit: scale-down;
+    border-radius: 10px;
+    width: 100%;
+    height: 275px;
+    filter: grayscale(100%);
   }
-  div.iot{
-    font-family: sans-serif;
-    color: rgb(83, 197, 83);
+  div.gallery img:hover {
+    filter: grayscale(0%);
+    transition: .8 ease;
+  }
+  div.desc {
+    padding: 15px;
     text-align: center;
-    font-weight: bolder;
-    font-size: 60px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
