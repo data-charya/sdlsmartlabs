@@ -80,7 +80,6 @@ p{
 }
 
 .image {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -108,7 +107,7 @@ p{
   height: 100%;
 }
 .container:hover .image {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 
 .viggu {
@@ -142,7 +141,6 @@ p{
 }
 
 .image2 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -170,7 +168,7 @@ p{
   height: 100%;
 }
 .container2:hover .image2 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 
 .vbh {
@@ -202,7 +200,6 @@ p{
 }
 
 .image3 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -230,7 +227,7 @@ p{
   height: 100%;
 }
 .container3:hover .image3 {
-  filter: blur(2px);
+  filter: grayscale(100%)  blur(2px);
 }
 .pra {
   color: white;
@@ -294,7 +291,6 @@ div.TEAM{
 }
 
 .image4 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -322,7 +318,7 @@ div.TEAM{
   height: 100%;
 }
 .container4:hover .image4 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 .rahul {
   color: white;
@@ -362,7 +358,6 @@ hr.hr4{
 }
 
 .image5 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -390,7 +385,7 @@ hr.hr4{
   height: 100%;
 }
 .container5:hover .image5 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 .champa {
   color: white;
@@ -428,7 +423,6 @@ hr.hr5{
 }
 
 .image6 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -456,7 +450,7 @@ hr.hr5{
   height: 100%;
 }
 .container6:hover .image6 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 .sri {
   color: white;
@@ -496,7 +490,6 @@ hr.hr6{
 }
 
 .image7 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -524,7 +517,7 @@ hr.hr6{
   height: 100%;
 }
 .container7:hover .image7 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 .shan {
   color: white;
@@ -563,7 +556,6 @@ hr.hr7{
 }
 
 .image8 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -591,7 +583,7 @@ hr.hr7{
   height: 100%;
 }
 .container8:hover .image8 {
-  filter: blur(2px);
+  filter: grayscale(100%) blur(2px);
 }
 .nax {
   color: white;
@@ -629,7 +621,6 @@ hr.hr8{
 }
 
 .image9 {
-  filter: grayscale(100%);
   border-radius: 25px;
   object-fit: scale-down;
   display: block;
@@ -656,9 +647,10 @@ hr.hr8{
 .container9:hover .overlay9 {
   height: 100%;
 }
-.container9:hover .image9 {
-  filter: blur(2px);
+.container9:hover .image9 { 
+  filter: grayscale(100%) blur(2px);
 }
+
 .nov {
   color: white;
   font-size: 20px;
