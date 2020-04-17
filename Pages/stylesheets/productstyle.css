@@ -26,6 +26,8 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    z-index: 999;
+    opacity: .8;
   }
   ul { 
     
