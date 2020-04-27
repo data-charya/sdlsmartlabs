@@ -102,12 +102,7 @@ body {
     font-weight: bolder;
     font-size: 60px;
   }
-  .backvid{
-    filter: blur(7px);
-    margin-top: -135px;
-    position: relative;
-    z-index: -999;
-  }
+  
   .over{
     margin-top:-550px ;
     z-index: 999;
