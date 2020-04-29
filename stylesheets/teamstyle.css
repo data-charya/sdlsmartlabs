@@ -104,7 +104,7 @@ p{
   transition-delay: 0.5s;
 }
 .container .box:hover .imgbx{
-  clip-path: circle(80px at center 100px);
+  clip-path: circle(100px at center 100px);
   transition-delay: 0s;
 }
 .container .box:hover .imgbx img{
