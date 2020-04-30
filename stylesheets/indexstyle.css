@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
-#loader {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: black url('preloader.gif');
-  z-index: 100;
-  
 }
 body {
     background-color: rgba(68, 65, 65, 0.425);

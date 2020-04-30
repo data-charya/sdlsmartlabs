@@ -93,8 +93,9 @@ body {
   }
   div.gallery img:hover {
     filter: grayscale(0%);
-    transition: .8 ease;
+    transition: 1s ease;
   }
+
   div.desc {
     padding: 15px;
     text-align: center;
