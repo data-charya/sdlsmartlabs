@@ -17,6 +17,8 @@ body {
 }
 
 nav{ 
+  margin-right: 80px;
+  float: right;
   text-transform: capitalize;
   font-family: 'Poppins','sans-serif';
   font-size: 25px;
@@ -224,8 +226,27 @@ nav a:hover{
     transform: scale(0.9);
     transition: 0.5s ease;
   }
+  .menu{
+    cursor: pointer;
+    float: right;
+    display: none;
+    margin-top: 30px;
+    opacity: 0;
+  }
+  .rect{
+    
+    align-items: center;
+    height: 5px;
+    width: 35px;
+    background-color: aliceblue;
+    margin:5px;
+    border-radius: 7px;
+    transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
   @media only screen and (max-width: 850px){
     nav{
+      width: 100%;
+      height: 0;
       margin-top: -250px;
       display: flex;
       flex-direction: column;
@@ -233,13 +254,32 @@ nav a:hover{
       position: absolute;
       top: 100%;
       left: 50%;
+      overflow: hidden;
       transform: translate(-50%, 0);
+      background-color: rgba(26, 26, 26, 0.822);
+      transition: height .5s ease-in;
+    }
+    .menu{
+      opacity: 1;
+      display: inline;
     }
     a{
       margin: 20px 0;
     }
     button{
-
+      margin: 20px 0;
     }
     
+  }
+  .flip1{
+    transform: translate(-10px, 10px) rotate(-45deg);
+  }
+  .hide{
+    opacity: 0;
+  }
+  .slide{
+    height: 350%;
+  }
+  .flip2{
+    transform: translate(-10px, -10px) rotate(45deg);
   }
