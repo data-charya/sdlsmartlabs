@@ -98,3 +98,6 @@ body {
     font-weight: bolder;
     font-size: 60px;
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }

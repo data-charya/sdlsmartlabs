@@ -233,3 +233,6 @@ section{
       transform: scale(1.05);
     }
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }

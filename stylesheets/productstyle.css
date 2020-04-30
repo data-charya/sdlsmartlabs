@@ -205,3 +205,6 @@ body {
     margin-left: 250px;
     margin-top: -140px;
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }

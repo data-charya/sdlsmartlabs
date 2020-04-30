@@ -283,3 +283,6 @@ nav a:hover{
   .flip2{
     transform: translate(-10px, -10px) rotate(45deg);
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }
