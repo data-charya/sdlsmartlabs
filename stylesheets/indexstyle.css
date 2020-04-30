@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 #loader {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100vh;
-  background: black url("preloader.gif");
+  height: 100%;
+  background: black url('preloader.gif');
   
 }
 body {
