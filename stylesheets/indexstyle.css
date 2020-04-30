@@ -209,6 +209,8 @@ nav a:hover{
     color: #fff;
   }
   button{
+    color: #fff;
+    font-family: 'Poppins', 'sans-serif';
     margin-top: 20px;
     justify-content: center;
     padding: 8px 20px;
