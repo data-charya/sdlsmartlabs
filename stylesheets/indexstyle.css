@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 body {
-    background-color: rgba(68, 65, 65, 0.425);
+    background-color: rgb(0, 0, 0);
       font-family: 'Montserrat';
       font-size: 22px;
       margin:0;
@@ -8,69 +8,42 @@ body {
       padding: 0;
       justify-content: center;
   }
-  
-  div.logo
-  { 
-    transform: scale(2.5,2.4);
-    margin-top: -100px;
-    margin-left: -650px;
-    z-index: 999;
-    opacity: 1;
-  }
-  nav{
-    box-shadow: 0px 10px 20px rgb(58, 58, 58);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 170px;
-    background: rgb(255, 255, 255);
-    padding-left: 800px;
-    padding-top: 120px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-    z-index: 99;
-    opacity: 0.96;
-  }
-  ul { 
-    
-    font-size: large;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-   li{
-    list-style: none;
-    float: right;
-  }
-  
-  
-  ul li a {
-    color: rgb(149, 0, 255);
-    padding: 0px 20px;
-    text-decoration: none;
-    
-  }
-  
-  li a:hover:not(.active) {
-   color: rgb(177, 110, 224);
-  }
-  
-  .active {
-    background-color: rgb(66, 0, 114);
-  }
-  
-  
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+}
+
+nav{ 
+  text-transform: capitalize;
+  font-family: 'Poppins','sans-serif';
+  font-size: 25px;
+}
+nav a{
+  color:#fff;
+  text-decoration: none;
+  padding: 0 25px;
+  opacity: .5;
+}
+nav a:hover{
+  opacity: 1;
+}
   p{
     text-align: center;
     font-size: 45px;
     font-weight: bold;
   }
+  .h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+  }
   .h2{
     color: rgb(32, 75, 218);
-    
+    font-family: 'Poppins','sans-serif';
+    font-size: 110px;
   }
   div.quote{
     font-family: sans-serif;
@@ -219,4 +192,52 @@ body {
       position: relative;
       width:100% ;
     }
+  }
+  .welcome{
+    margin-left: 60px;
+    font-family: 'Poppins','sans-serif';
+    color: #ff0057;
+    font-size: 170px;
+    font-weight: 700;
+    transition: 1s ease-in;
+  }
+  .land{
+    margin-left: 60px;
+    font-family: 'Poppins','sans-serif';
+    font-size: 130px;
+    font-weight: 700;
+    color: #fff;
+  }
+  button{
+    margin-top: 20px;
+    justify-content: center;
+    padding: 8px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    background: rgb(15, 71, 253);
+  }
+  button:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
+  }
+  @media only screen and (max-width: 850px){
+    nav{
+      margin-top: -250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    a{
+      margin: 20px 0;
+    }
+    button{
+
+    }
+    
   }
