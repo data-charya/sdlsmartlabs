@@ -4,6 +4,7 @@
   width: 100%;
   height: 100%;
   background: black url('preloader.gif');
+  z-index: 2;
   
 }
 body {
@@ -38,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    z-index: 999;
+    z-index: 1;
     opacity: 0.96;
   }
   ul { 
