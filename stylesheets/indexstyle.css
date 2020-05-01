@@ -214,12 +214,27 @@ nav a:hover{
         }
 }
 .w{
-  height: 200px;
+  position: relative;
+  height: 300px;
   display: flex;
   position: relative;
   float: right;
   margin-right: 30px;
   margin-top: 90px;
+}
+@keyframes wel{
+  0%{
+      transform: translateX(600px);
+      opacity: 0;
+      }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+      }
+}
+
+.w{
+  animation: wel 1.7s forwards 0s linear;
 }
 .welcome{
     animation: yourAnimation 2.5s forwards 0s linear;
@@ -231,7 +246,7 @@ nav a:hover{
   .land{
     margin-left: 60px;
     font-family: 'Poppins','sans-serif';
-    font-size: 130px;
+    font-size: 120px;
     font-weight: 700;
     color: #fff;
   }
