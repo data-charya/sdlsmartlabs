@@ -283,8 +283,14 @@ nav a:hover{
     border-radius: 7px;
     transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
+  hr.line{
+      border: 10px solid #fff;
+      border-radius: 10px;
+      width: 70%;
+  }
   @media only screen and (max-width: 762px){
     nav{
+      z-index: 999;
       width: 100%;
       height: 0;
       margin-top: -250px;
@@ -300,16 +306,24 @@ nav a:hover{
       transition: height .5s ease-in;
     }
     .menu{
+      z-index: 9999;
       opacity: 1;
       display: inline;
     }
     a{
+      z-index: 9999;
       margin: 20px 0;
     }
     button{
+      z-index: 9999;
       margin: 20px 0;
     }
-    
+    .welcome{
+      margin-top: 50px;
+    }
+    .land{
+      font-size: 50px;
+    }
   }
   .flip1{
     transform: translate(-10px, 10px) rotate(-45deg);
@@ -326,3 +340,36 @@ nav a:hover{
   ::-webkit-scrollbar{
     display: none;
   }
+  @keyframes your{
+    0%{
+        transform: rotate(0) translateX(-10000px);
+        }
+    17%{
+        transform: rotate(0) translateX(-1000px);
+        }
+    28%{
+        transform: rotate(0) translateX(-100px);
+        }
+    37%{
+        transform: rotate(0) translateX(0px);
+        }
+    46%{
+        transform: rotate(0) translateX(45px);
+        }
+    58%{
+        transform: rotate(0) translateX(-10000px) translateY(-65);
+        }
+    70%{
+        transform: rotate(0) translateX(-10000px) translateY(-45);
+        }
+    88%{
+        transform: rotate(0) translateX(0px);
+        }
+    100%{
+        transform: rotate(0) translateX(0px);
+        }
+}
+
+.line{
+    animation: your 3s forwards 0s linear;
+}
