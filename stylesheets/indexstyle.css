@@ -55,25 +55,6 @@ nav a:hover{
     color: aliceblue;
     margin-top: -60px;
   }
-  div.of{
-    font-family: sans-serif;
-    color: aliceblue;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 60px;
-  }
-  div.iot{
-    font-family: sans-serif;
-    color: rgb(47, 233, 47);
-    text-align: center;
-    font-weight: bolder;
-    font-size: 60px;
-  }
-  
-  .over{
-    margin-top:-550px ;
-    z-index: 999;
-  }
   .container{
     position: relative;
     width: 1000px;
@@ -205,11 +186,11 @@ nav a:hover{
   }
   @keyframes yourAnimation{
     0%{
-        transform: rotate(0) scale(0) translateX(0);
+        transform: translateX(0);
         opacity: 0;
         }
     100%{
-        transform: rotate(0) scale(0) translateX(0);
+        transform: translateX(0);
         opacity: 1;
         }
 }
@@ -243,25 +224,26 @@ nav a:hover{
 .land{
   animation: yourAnimation 3.5s forwards 0s linear;
 }
-  .land{
+.land{
     margin-left: 60px;
     font-family: 'Poppins','sans-serif';
     font-size: 120px;
     font-weight: 700;
     color: #fff;
-  }
-  button{
-    color: #fff;
-    font-family: 'Poppins', 'sans-serif';
-    margin-top: 20px;
-    justify-content: center;
-    padding: 8px 20px;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    font-size: 25px;
-    background: rgb(15, 71, 253);
-  }
+}
+button
+{
+  color: #fff;
+  font-family: 'Poppins', 'sans-serif';
+  margin-top: 20px;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  background: rgb(15, 71, 253);
+}
   button:hover{
     transform: scale(0.9);
     transition: 0.5s ease;
@@ -337,10 +319,9 @@ nav a:hover{
   .flip2{
     transform: translate(-10px, -10px) rotate(45deg);
   }
-  ::-webkit-scrollbar{
-    display: none;
-  }
-  @keyframes your{
+  
+  @keyframes your
+  {
     0%{
         transform: rotate(0) translateX(-10000px);
         }
@@ -368,8 +349,27 @@ nav a:hover{
     100%{
         transform: rotate(0) translateX(0px);
         }
-}
+  }
 
 .line{
     animation: your 3s forwards 0s linear;
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+
+  .aboutus{
+    text-align: center;
+  }
+.about{
+  font-family: 'Poppins','sans-serif';
+  font-size: 90px;
+  font-weight: 700; 
+  color: rgb(131, 10, 252);
+}
+.are{
+  font-family: 'Poppins','sans-serif';
+  font-size: 90px;
+  font-weight: 700;
+  color: #fff;
 }

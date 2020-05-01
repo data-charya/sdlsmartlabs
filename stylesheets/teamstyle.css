@@ -3,236 +3,122 @@ body {
   background-color: rgb(0, 0, 0);
     font-family: 'Montserrat';
     font-size: 22px;
-    
+    margin:0;
+      align-items: center;
+      padding: 0;
+      justify-content: center;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-div.logo
-  { 
-    transform: scale(2.5,2.4);
-    margin-top: -100px;
-    margin-left: -650px;
-    z-index: 999;
-  }
-nav{
-  box-shadow: 0px 10px 20px rgb(58, 58, 58);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 170px;
-  background: rgb(255, 255, 255);
-  padding-left: 800px;
-  padding-top: 120px;
-  box-sizing: border-box;
+.header{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-  z-index: 999;
+  padding: 25px 8%;
 }
-ul { 
-  
-  font-size: large;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
- li{
-  list-style: none;
+
+nav{ 
+  margin-right: 80px;
   float: right;
+  text-transform: capitalize;
+  font-family: 'Poppins','sans-serif';
+  font-size: 25px;
 }
-
-
-ul li a {
-  color: rgb(149, 0, 255);
-  padding: 0px 20px;
+nav a{
+  color:#fff;
   text-decoration: none;
-  
+  padding: 0 25px;
+  opacity: .5;
 }
-
-li a:hover:not(.active) {
- color: rgb(177, 110, 224);
+nav a:hover{
+  opacity: 1;
 }
-
-.active {
-  background-color: rgb(66, 0, 114);
-}
-div.banner{
-  
-  width: 100%;
-  height: 400px;
-  background-color: rgb(255, 255, 255);
-}
-
-p{
-  text-align: center;
-  font-size: 45px;
-  font-weight: bold;
-}
-.h2{
-  color: rgb(52, 9, 153);
-  
-}
-
-a{
-  text-decoration: none;
+button{
   color: #fff;
-}
-section{
-  padding: 15rem 0;
-  background-color: #fff;
-}
-.card-wrapper{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-}
-.card{
-  width: 25rem;
-  background-color: #c6d1f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Poppins', 'sans-serif';
+  margin-top: 20px;
   justify-content: center;
-  margin: 2rem 0;
-  box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  background: rgb(15, 71, 253);
 }
-.card .card-img{
-  width: 100%;
-  height: 22rem;
-  object-fit: cover;
-  -webkit-clip-path: polygon(0 0,100% 0, 100% 78%,0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 78%,0% 100%);
+button:hover{
+  transform: scale(0.9);
+  transition: 0.5s ease;
 }
-.profile-img{
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: 50%;
-  background-color: #fff;
-  margin-top: -10rem;
-  z-index: 1;
-  border: 1rem solid #c6d1f5;
+.rect{
+    
+  align-items: center;
+  height: 5px;
+  width: 35px;
+  background-color: aliceblue;
+  margin:5px;
+  border-radius: 7px;
+  transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.card h1{
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
-  color: #333;
-  margin: 1.5rem 0;
-
+.menu{
+  cursor: pointer;
+  float: right;
+  display: none;
+  margin-top: 30px;
+  opacity: 0;
 }
-.job-title{
-  color: #777;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-.about{
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin: 1.5rem 0;
-  text-align: center;
-  color: #333;
-}
-.card .btn{
-  padding: 1rem 2.5rem;
-  background-color: #445ae3;
-  border-radius: 2rem;
-  margin: 1rem 0;
-  text-transform: uppercase;
-  color: #eee;
-  font-size: 1.4rem;
-  transition: all .5s;
-}
-.card .btn:hover{
-  transform: translateY(-2px);
-  box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
-}
-.card .btn:active{
-  transform: translateY(0);
-  box-shadow: none;
-}
-.social-media{
-  width: 100%;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1.5rem 0;
-  margin-top: 1.5rem;
-  border-top: 1px solid rgba(0,0,0,.1);
-}
-.social-media i{
-  font-size: 3rem;
-  transition: color .5s;
-}
-.fa-linked.in-square{
-  color: #0e76a8;
-}
-.fa-twitter-square{
-  color: #55acee;
-}
-.fa-instagram-square{
-  color: #e6683c;
-}
-.fa-linked.in-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram-square:hover{
-  color: #45e19f;
-}
-@media screen and (min-width: 700px){
-  .card-wrapper{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+@media only screen and (max-width: 762px){
+  nav{
+    z-index: 999;
+    width: 100%;
+    height: 0;
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, 0);
+    background-color: rgba(26, 26, 26, 0.822);
+    transition: height .5s ease-in;
   }
-  .card{
-    margin: 2rem;
-    transition: transform .5s;
+  .menu{
+    z-index: 9999;
+    opacity: 1;
+    display: inline;
   }
-  @keyframes fadeIn 
-  {
-    from{
-      opacity: 0;
-    }
-    to{
-      opacity: 1;
-    }
+  a{
+    z-index: 9999;
+    margin: 20px 0;
   }
-    .card:nth-child(1){
-      animation: fadeIn .5s .5s backwards;
-    }
-    .card:nth-child(2){
-      animation: fadeIn .5s 1s backwards;
-    }
-    .card:nth-child(3){
-      animation: fadeIn .5s 1.5s backwards;
-    }
-    .card:nth-child(4){
-      animation: fadeIn .5s 2s backwards;
-    }
-    .card:nth-child(5){
-      animation: fadeIn .5s 2.5s backwards;
-    }
-    .card:nth-child(6){
-      animation: fadeIn .5s 3s backwards;
-    }
-    .card:nth-child(7){
-      animation: fadeIn .5s 3.5s backwards;
-    }
-    .card:nth-child(8){
-      animation: fadeIn .5s 4s backwards;
-    }
-    .card:nth-child(9){
-      animation: fadeIn .5s 4.5s backwards;
-    }
-    .card:hover{
-      transform: scale(1.05);
-    }
+  button{
+    z-index: 9999;
+    margin: 20px 0;
   }
-  ::-webkit-scrollbar{
-    display: none;
+  .welcome{
+    margin-top: 50px;
   }
+  .land{
+    font-size: 50px;
+  }
+}
+.flip1{
+  transform: translate(-10px, 10px) rotate(-45deg);
+}
+.hide{
+  opacity: 0;
+}
+.slide{
+  height: 350%;
+}
+.flip2{
+  transform: translate(-10px, -10px) rotate(45deg);
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
