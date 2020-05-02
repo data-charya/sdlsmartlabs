@@ -349,31 +349,31 @@ button
   @keyframes your
   {
     0%{
-        transform: rotate(0) translateX(-10000px);
+        transform: translateX(-10000px);
         }
     17%{
-        transform: rotate(0) translateX(-1000px);
+        transform: translateX(-1000px);
         }
     28%{
-        transform: rotate(0) translateX(-100px);
+        transform:  translateX(-100px);
         }
     37%{
-        transform: rotate(0) translateX(0px);
+        transform:  translateX(0px);
         }
     46%{
-        transform: rotate(0) translateX(45px);
+        transform:  translateX(45px);
         }
     58%{
-        transform: rotate(0) translateX(-10000px) translateY(-65);
+        transform:  translateX(-10000px) translateY(-65);
         }
     70%{
-        transform: rotate(0) translateX(-10000px) translateY(-45);
+        transform:  translateX(-10000px) translateY(-45);
         }
     88%{
-        transform: rotate(0) translateX(0px);
+        transform:  translateX(0px);
         }
     100%{
-        transform: rotate(0) translateX(0px);
+        transform:  translateX(0px);
         }
   }
 
