@@ -128,16 +128,22 @@ h1{
   font-size:30px
 }
 
+
+
+
+
+
+
 .column
   {
       width:25%;
-      float:left;
+      float: left;
       padding:100px 10px;
   }
   .row:after{
     content:"";
       display:table;
-      clear:both;
+      clear: both;
   }
   @media screen and (max-width:600px)
   {
@@ -174,8 +180,9 @@ h1{
       color:white;
       background-color:black;
       cursor:pointer;
-      width:70%;
+      width:50%;
       border-radius:20px;
+      margin-top: 90px;
       font-size:18px;
       text-align:center;
   }
