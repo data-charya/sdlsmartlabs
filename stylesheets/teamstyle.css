@@ -17,6 +17,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+
+
 .header{
   display: flex;
   align-items: center;
@@ -25,6 +30,7 @@ body {
 }
 
 nav{ 
+  
   margin-right: 80px;
   float: right;
   text-transform: capitalize;
@@ -42,7 +48,7 @@ nav a:hover{
   color: #fff;
   text-decoration: none;
 }
-button{
+.cont{
   color: #fff;
   font-family: 'Poppins', 'sans-serif';
   margin-top: 20px;
@@ -54,7 +60,7 @@ button{
   font-size: 25px;
   background: rgb(15, 71, 253);
 }
-button:hover{
+.cont:hover{
   transform: scale(0.9);
   transition: 0.5s ease;
 }
@@ -102,7 +108,7 @@ button:hover{
     z-index: 9999;
     margin: 20px 0;
   }
-  button{
+  .cont{
     z-index: 9999;
     margin: 20px 0;
   }
@@ -162,36 +168,27 @@ button:hover{
 
 
 
-
-
-
-
-
-
-
-
-
 /* ----------------------
   particales js
 ------------------------*/
 
 
 #changestyle {
-  position: absolute;
-  top: 45px;
+  position: absolute;;
+  
   right: 125px;
   z-index: 9999;
 }
 #particles-js {
   z-index: -1;
-  position: fixed;
+  position: absolute;;
   width: 100vw;
   height: 100vh;
   background-color: rgb(35,39,65);
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 100% 100%;
 }
 
 
@@ -201,6 +198,7 @@ button:hover{
 }*/
 
 .flx-center {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,3 +471,5 @@ button:hover{
 
 
 
+
+  
