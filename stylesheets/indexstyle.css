@@ -15,32 +15,6 @@ body {
   justify-content: space-between;
   padding: 25px 8%;
 }
-.lgo{
-  width: 140px;
-  height: 120px;
-  float: left;
-  margin-top: 5px ;
-}
-.logotext{
-  font-size: 35px;
-  color: #fff;
-  float: left;
-  margin-top: 20px;
-  font-family: 'Poppins', 'sans-serif';
-  font-weight: 600;
-}
-.til{
-   color: lawngreen;
-  }
-.slogan{
-  font-size: 15px;
-  color: #fff;
-  float: left;
-  margin-top: 35px;
-  margin-left: -270px;
-  font-family: 'Poppins', 'sans-serif';
-  font-weight: 200;
-}
 
   nav{ 
   margin-right: 80px;

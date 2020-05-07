@@ -1,20 +1,161 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
+
+
+
+
+
+
+
+
+
+
 body{
   background: #000;
-  width: 100%;
-  min-height: 100vh;
+  font-family: 'Poppins',sans-serif;
   display: flex;
+  margin:0;
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+
+
+.header{
+  top: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+}
+
+nav{ 
+  
+  margin-right: -720px;
+  float: right;
+  text-transform: capitalize;
+  font-family: 'Poppins','sans-serif';
+  font-size: 25px;
+}
+nav a{
+  color:#fff;
+  text-decoration: none;
+  padding: 0 25px;
+  opacity: .5;
+}
+nav a:hover{
+  opacity: 1;
+  color: #fff;
+  text-decoration: none;
+}
+.cont{
+  color: #fff;
+  font-family: 'Poppins', 'sans-serif';
+  margin-top: 20px;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  background: rgb(15, 71, 253);
+}
+.cont:hover{
+  transform: scale(0.9);
+  transition: 0.5s ease;
+}
+.rect{
+    
+  align-items: center;
+  
+  height: 5px;
+  width: 35px;
+  background-color: aliceblue;
+  margin:5px;
+  border-radius: 7px;
+  transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.menu{
+  cursor: pointer;
+  float: right;
+  display: none;
+  margin-top: 30px;
+  opacity: 0;
+}
+@media only screen and (max-width: 762px){
+  nav{
+    z-index: 999;
+    width: 100%;
+    height: 0;
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, 0);
+    background-color: rgba(26, 26, 26, 0.822);
+    transition: height .5s ease-in;
+  }
+  .menu{
+    
+    z-index: 9999;
+    opacity: 1;
+    display: inline;
+  }
+  a{
+    text-decoration: none;
+    z-index: 9999;
+    margin: 20px 0;
+  }
+  .cont{
+    z-index: 9999;
+    margin: 20px 0;
+  }
+  .welcome{
+    margin-top: 50px;
+  }
+  .land{
+    font-size: 50px;
+  }
+}
+.flip1{
+  transform: translate(-10px, 10px) rotate(-45deg);
+}
+.hide{
+  opacity: 0;
+}
+.slide{
+  height: 350%;
+}
+.flip2{
+  transform: translate(-10px, -10px) rotate(45deg);
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
-  position: relative;
+  margin-top: 5500px;
+  position: absolute;
   max-width: 1000px;
   display: flex;
   justify-content: center;
