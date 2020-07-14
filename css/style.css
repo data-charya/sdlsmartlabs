@@ -16,7 +16,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #fff;
+  color: #18d36e;
   outline: none;
   text-decoration: none;
 }
@@ -1187,9 +1187,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
-  border-radius: 50%;
+  background: #9742F2;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
