@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: rgb(235, 235, 235);
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -650,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(206, 206, 206, 0.92);
   z-index: 9;
 }
 
@@ -733,7 +733,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #services {
-  background: #fff;
+  background: rgb(235, 235, 235);
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -863,7 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(206, 206, 206, 0.88);
   z-index: 9;
 }
 
@@ -1421,7 +1421,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
-+/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # blog content
 --------------------------------------------------------------*/
 .blog-post {
