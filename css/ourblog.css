@@ -1,0 +1,283 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #17a158;
+}
+
+a:hover {
+  color: #17a158;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+blockquote {
+  margin: 3%;
+  border-left: 10px solid #17a158;
+  padding: 2%;
+  color: #222;
+  background: #f1f1f1;
+  font-style: italic;
+  line-height: 130%;
+}
+
+a, a:link, a:visited {
+  color: #555555;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+a:hover {
+  color: #23d175;
+}
+
+.top {
+  width: 100%;
+  background: #222 url(https://subtlepatterns.com/patterns/navy_blue.png);
+  border-bottom: 3px solid #ccc;
+}
+
+.header {
+  max-width: 1200px;
+  width: 98%;
+  height: 8.8em;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.header h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  color: #fff;
+}
+.header h1 span {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+.header .author {
+  font-size: 0.8em;
+  font-weight: normal;
+  border-top: 1px dashed #555;
+  border-bottom: 1px dashed #555;
+  max-width: 160px;
+  text-align: center;
+  margin: -1em auto 0 auto;
+  padding: 0.3em;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.content {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0;
+}
+
+.date {
+  float: left;
+  width: 10%;
+  color: #444;
+  text-align: center;
+}
+.date span {
+  margin: 0;
+  line-height: 50%;
+}
+.date .day {
+  float: left;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  width: 100%;
+  color: #17a158;
+  font-size: 200%;
+}
+
+.date-line {
+  display: none;
+}
+
+.article {
+  width: 90%;
+  margin: 0 0 6em 0;
+  float: left;
+  padding: 0 1.3em 0 1.3em;
+  border-left: 5px solid #17a158;
+}
+.article img {
+    width: 45%;
+    margin-left: -2%;
+    height: auto;
+    padding: 2%;
+    margin-bottom: 0;
+}
+.article h2 {
+  font-weight: normal;
+  font-size: 35px;
+  color: #333;
+  margin: 0;
+}
+.article h4 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+.article h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #888;
+  font-style: italic;
+  margin: 0 0 1em 0;
+}
+.article p {
+  margin-bottom: 25px;
+  color: #555;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 150%;
+  text-indent: 2em;
+}
+.article .firstpara {
+  text-indent: 0;
+}
+
+.article .firstcharacter {
+  float: left;
+  font-size: 3em;
+  line-height: 0.6em;
+  padding-top: 0.12em;
+  padding-right: 0.1em;
+  padding-left: 0;
+}
+@media only screen and (max-width: 450px) {
+  .content {
+    margin-top: 2em;
+  }
+  .date {
+    display: none;
+  }
+
+  .date-line {
+    display: inline;
+  }
+
+  .article {
+    width: 100%;
+    margin: 0 auto 2em auto;
+    border-left: none;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+  }
+  .article p {
+    font-size: 1.2em;
+  }
+
+  .header {
+    height: auto;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: #222 url(https://subtlepatterns.com/patterns/navy_blue.png);
+  }
+  .header img {
+    height: 20px;
+    width: 20px;
+  }
+  .header h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #f1f1f1;
+  }
+  .header h1 span {
+    font-size: 80%;
+  }
+  .header .author {
+    display: none;
+  }
+}
+::selection {
+  color: white;
+  background: #444;
+}
+/*-----********************************************************
+ ----> Footer css
+-------********************************************************/
+#footer {
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  padding: 30px 0;
+  color: #222222;
+  height: 100%;
+}
+
+#footer #hello {
+  border-left: 1px solid gray;
+}
+#footer .footer-logo h1 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+#footer #hello ul li {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+#footer #hello1 ul li {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+#footer .footer-links a {
+  color: #222222;
+  padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+  color: #00532f;
+}
+
+#footer #hello .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #00532f;
+  border: 2px solid #00532f;
+  margin-top: 10px;
+}
+
+#footer #hello .btn-get-started:hover {
+  background: #00532f;
+  color: #fff;
+}
+
+#footer #hello .social-links a {
+  padding: 10px;
+  font-size: 30px;
+}
+}

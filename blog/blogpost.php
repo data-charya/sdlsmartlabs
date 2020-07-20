@@ -1,3 +1,8 @@
+<?php require_once('../config/config.php'); 
+      if(!isset($_SESSION['readmore'])) {
+        header('location: ../index.php');
+      }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,12 +56,12 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li ><a href="https://sdlsmartlabs.co.in/#intro">Home</a></li>
-          <li><a href="https://sdlsmartlabs.co.in/#about">About Us</a></li>
-          <li><a href="https://sdlsmartlabs.co.in/#services">Services</a></li>
-          <li><a href="https://sdlsmartlabs.co.in/#team">Team</a></li>
-          <li class="menu-active" ><a href="https://sdlsmartlabs.co.in/#blog">Blogs</a></li>
-          <li><a href="https://sdlsmartlabs.co.in/#contact">Contact</a></li>
+          <li ><a href="../index.php">Home</a></li>
+          <li><a href="../index.php">About Us</a></li>
+          <li><a href="../index.php">Services</a></li>
+          <li><a href="../index.php">Team</a></li>
+          <li class="menu-active"><a href="../index.php">Blogs</a></li>
+          <li><a href="../index.php">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -72,7 +77,7 @@
 			
 			<div class="blog-content">
 				<summary>
-          <h3>My First Blog Post</h3>
+          <h3><?php echo blog_display(1,$_SESSION['readmore']); ?></h3>
             
                    
             <div class="social-links">
@@ -84,18 +89,22 @@
           </div>
           
         
-          <div class="blog-written-by">By XYZ</div>
-        	 <div class="blog-date">23 Dec 2016</div>
+          <div class="blog-written-by">By <?php echo blog_display(2,$_SESSION['readmore']); ?></div>
+        	 <div class="blog-date"><?php echo blog_display(3,$_SESSION['readmore']); ?></div>
 				</summary>
-				<p>loremm ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus at enim sit amet maximus. Nunc sagittis auctor diam, sed efficitur ante viverra quis. Mauris eu enim quis odio rutrum porttitor nec sed quam. Nunc vel varius urna. Sed et imperdiet lorem. Curabitur in quam vel quam bibendum feugiat. Pellentesque eget nunc sapien. Maecenas condimentum orci id arcu tincidunt, ut mollis metus pharetra. Nullam semper tempus emauris, eget laoreet nibh bibendum vel. Etiam condimentum, metus quis scelerisque congue, neque arcu scelerisque ligula, at consectetur felis urna vitae justo.</p>
 			</div>
-			<div class="blog-img">
-				<div class="blog-img-caption"><b>Pictured</b> Some Cool Skyline</div>
-			</div>
-			<div class="blog-content">
-				<p>Sed accumsan suscipit lorem, eget rhoncus ante elementum a. Vestibulum feugiat tellus quis finibus suscipit. Quisque ultricies, nibh ac molestie mattis, ipsum nisi interdum leo, eu condimentum erat mi non tellus. Sed sodales, nulla vitae dapibus fringilla, turpis ligula laoreet purus, sed euismod quam massa vitae lorem. Nunc sit amet facilisis ante, eu fringilla massa. Aenean tristique erat et ipsum ultrices, at iaculis urna gravida. Praesent sit amet augue vitae dui maximus vulputate sed quis quam. Integer mattis, metus nec efficitur rhoncus, felis nisl bibendum nibh, sed feugiat eros ex ut quam. Quisque posuere semper malesuada. Maecenas at mauris in ex molestie luctus. Integer maximus, enim ut ultrices sagittis, nisl turpis placerat ipsum, eget pellentesque nisl felis eu nunc.</p>
+       
+      <div class="blog-img">
+        <p align="center">
+          <?php echo '<img src="../uploads/'.blog_display(5,$_SESSION['readmore']).'"'; ?><br>
+        </p>
+      </div>
 
-				<p>Pellentesque sed leo non elit lobortis elementum eget vitae risus. Etiam ac elit neque. Ut ultricies vulputate eros, ut fringilla velit hendrerit sed. Mauris ullamcorper quam et massa mollis sodales. Proin ut dui maximus nulla consequat lacinia a nec lectus. Sed lobortis pellentesque felis at volutpat. Praesent id nunc eu arcu vulputate sollicitudin non a quam. Duis laoreet et turpis et porttitor. Proin magna dolor, pellentesque ac vestibulum eu, bibendum eu libero. Phasellus faucibus ex tortor, vitae sagittis dui pulvinar in. Nullam ut dui lectus. Cras at posuere risus, id maximus purus. </p>
+			<div class="blog-content">
+      
+      
+
+      <?php echo blog_display(4,$_SESSION['readmore']); ?>
 			</div>	
 	</article>
 </div>

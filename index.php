@@ -1,3 +1,6 @@
+<?php require_once('config/config.php'); 
+      unset($_SESSION['readmore']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -603,104 +606,15 @@
     <!-- ************************************************************* 
       ---- Blog Section start's
   ******************************************************************-->
-  <section id="blog" class="silder-bg">
+  <section id="blog" style="margin-top: 30px; padding-top: 30px;" class="silder-bg wow fadeInUp">
     <div class="container">
       <div class="swiper-container">
         <div class="swiper-title">
           <h2>Our Blog</h2>
         </div>
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurMission.jpg">
-              <div class="blog-date">
-                23<br>June
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-1</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/bloga.php'" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurValues.jpg">
-              <div class="blog-date">
-                20<br>June
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-2</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/blogb.php'" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurVision.jpg">
-              <div class="blog-date">
-                25<br>May
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-3</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/blogc.php'" type="button">Read More</button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurMission.jpg">
-              <div class="blog-date">
-                27<br>Jan
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-4</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/blogd.php'" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurValues.jpg">
-              <div class="blog-date">
-                28<br>June
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-5</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/bloge.php'" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="imgBx">
-              <img src="img/blog/OurMission.jpg">
-              <div class="blog-date">
-                23<br>June
-              </div>
-            </div>
-            <div class="details">
-              <h2>Heading-6</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <button onclick="location.href='blog/blogf.php'" type="button">Read More</button>
-            </div>
-          </div>
+          <?php main_display(1); 
+          main_display(2); ?>
         </div>
         <!-- Add Pagination -->
       </div>
@@ -748,30 +662,24 @@
           </div>
 
         </div>
-
+  <?php message_contact(); ?>
         <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form method="post">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required/>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required/>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required/>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit" name="send" value="send">Send Message</button></div>
           </form>
         </div>
 

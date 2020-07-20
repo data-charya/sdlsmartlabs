@@ -1,0 +1,3 @@
+[19-Jul-2020 11:19:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sdlsmart_user'@'localhost' to database 'sdlsmart_database' in /home/sdlsmartlabs/public_html/config/db.php on line 4
+[19-Jul-2020 11:19:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/sdlsmartlabs/public_html/config/db.php on line 15
+[19-Jul-2020 11:19:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/sdlsmartlabs/public_html/config/db.php on line 22

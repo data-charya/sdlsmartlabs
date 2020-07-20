@@ -1,0 +1,58 @@
+#add .btn-get-started, #manage .btn-down, #new, #view .btn-down {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #9742F2;
+    border: 2px solid #9742F2;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+#add .btn-get-started:hover, #manage .btn-down:hover, #new:hover, #view .btn-down:hover {
+    background: #9742F2;
+    color: #fff;
+  }
+
+#summary .error {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    width: 100%;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#summary .btn-up, #manage .btn-up, #view .btn-up  {
+    background: #9742F2;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    border: 2px solid #9742F2;
+    margin-top: 20px;
+}
+
+#manage .btn-up:hover, #view .btn-up:hover {
+    background: #fff;
+    color: #9742F2;
+  }
+
+#manage {
+    background-color: #f6f6f6;
+  }

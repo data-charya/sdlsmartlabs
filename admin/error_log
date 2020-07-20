@@ -1,0 +1,70 @@
+[19-Jul-2020 11:28:03 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 11:28:03 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 11:28:03 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 12:12:13 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 12:12:13 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 12:12:13 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 12:13:45 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 12:13:45 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 12:13:45 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 12:15:11 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 12:15:11 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 12:15:11 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 12:17:54 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 12:17:54 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 12:17:54 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 12:18:01 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 12:18:01 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 12:18:01 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:26:04 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:26:04 UTC] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpsAuDtU' is not a valid JPEG file in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:26:04 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:26:09 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:26:09 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:26:09 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:58:50 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:58:50 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:58:50 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:58:50 UTC] PHP Warning:  unlink(../uploads/1595175964_logo.png): No such file or directory in /home/sdlsmartlabs/public_html/config/functions.php on line 200
+[19-Jul-2020 16:58:56 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:58:56 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:58:56 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:58:56 UTC] PHP Warning:  unlink(../uploads/1595175964_logo.png): No such file or directory in /home/sdlsmartlabs/public_html/config/functions.php on line 200
+[19-Jul-2020 16:59:23 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:23 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:23 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:30 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:30 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:30 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:40 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:40 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:40 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:40 UTC] PHP Warning:  unlink(../uploads/1595175964_logo.png): No such file or directory in /home/sdlsmartlabs/public_html/config/functions.php on line 200
+[19-Jul-2020 16:59:44 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:44 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:44 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:49 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:49 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:49 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:52 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 16:59:52 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 16:59:52 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 16:59:52 UTC] PHP Warning:  unlink(../uploads/1595175964_logo.png): No such file or directory in /home/sdlsmartlabs/public_html/config/functions.php on line 200
+[19-Jul-2020 17:00:10 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 17:00:10 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:00:10 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 17:00:10 UTC] PHP Warning:  unlink(../uploads/): Is a directory in /home/sdlsmartlabs/public_html/config/functions.php on line 200
+[19-Jul-2020 17:02:25 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 17:02:25 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:02:25 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 17:07:48 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:07:58 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:08:26 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 17:08:26 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:08:26 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 17:09:27 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 17:09:27 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:09:27 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39
+[19-Jul-2020 17:09:35 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 22
+[19-Jul-2020 17:09:35 UTC] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/sdlsmartlabs/public_html/config/functions.php on line 36
+[19-Jul-2020 17:09:35 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/sdlsmartlabs/public_html/config/functions.php on line 39

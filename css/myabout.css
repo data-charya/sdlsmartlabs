@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------
+# about-us
+--------------------------------------------------------------*/
+
+.about-us .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-us .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us .member .member-info {
+    padding: 25px 25px 0px 25px;
+}
+
+.about-us .member .social {
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.about-us .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+.about-us .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.about-us .member .member-info p {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    text-align: justify;
+}
+.about-us h4 {
+    font-size: 26px;
+    font-weight: 800;
+}
+.about-us .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.about-us .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.about-us span {
+    color: #00532f;
+}
+
+.about-us .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.about-us .icon-box h3 a {
+    color: #222222;
+    transition: ease-in-out 0.3s;
+}
+
+.about-us .icon-box:hover {
+    background: #32e591;
+}

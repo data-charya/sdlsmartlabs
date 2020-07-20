@@ -1453,12 +1453,15 @@ article {
 
 .blog-img {
   width:60%;
-  height: 0;
+  height: 10%;
   margin:50px auto 60px;
-  padding-bottom:35%;
-  background:url('https://images.unsplash.com/photo-1446797376004-9352dfc9f789?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') center center;
   background-size:cover;
   position:relative;
+}
+
+.blog-img img {
+  height: 40%;
+  width: 100%;
 }
 
 .blog-img-caption {
