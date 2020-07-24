@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Manage Messages | <?php echo count_mess(); ?></title>
+  <title><?php echo count_mess(); ?></title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -76,7 +76,7 @@
             <div class="carousel-background"><img src="../img/intro-carousel/1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Managing Messages ?</h2>
+                <h2>Managing Blogs.</h2>
                 <a href="#view" class="btn-get-started scrollto">View</a>
                 <a class="btn-get-started" onclick="exportToExcel('tblexportData', 'message-data')">Download</a>
               </div>

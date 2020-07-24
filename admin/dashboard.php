@@ -4,9 +4,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    </style>
   <meta charset="utf-8">
-  <title>Dashboard | <?php echo count_mess(); ?></title>
+  <title><?php echo count_mess(); ?></title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -78,7 +77,7 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Welcome <?php echo user_details(2,$_SESSION['username']);?>!</h2>
-                <p id="dasht"><h3>This is the dashboard of SDL SmartLabs Website.</h3></p>
+                <p><h3>This is the dashboard of SDL SmartLabs Website.</h3></p>
                 
               </div>
             </div>

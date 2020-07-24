@@ -11,13 +11,19 @@ CREATE TABLE `admins` (
   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE `blog` (
-  `BlogID` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  `Title` varchar(100) NOT NULL,
+  `BlogID` int NOT NULL PRIMARY KEY,
+  `Title` varchar(50) NOT NULL,
   `Author` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
-  `Content` text NOT NULL,
   `Date` Date NOT NULL,
   `Status` int NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `blogblock` (
+  `ParaID` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `BlogID` int NOT NULL,
+  `Image` varchar(100) NOT NULL,
+  `Content` text NOT NULL
   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE `messages` (
@@ -30,7 +36,10 @@ CREATE TABLE `messages` (
   `Status` int NOT NULL
   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO `admins` VALUES('admin','Administrator','Inces','admin@admin.admin','0000000000','$2y$10$/nqSUUZscwB5CNCYWug7Zu24UMKDUgALkYYyDqeQUf1CQW/IGpJGu');
+INSERT INTO `admins` VALUES('admin','$2y$10$/nqSUUZscwB5CNCYWug7Zu24UMKDUgALkYYyDqeQUf1CQW/IGpJGu');
+
+
+
 
 
 

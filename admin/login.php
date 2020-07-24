@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>LOGIN | SDL SMARTLABS</title>
+  <title>SDL SMARTLABS</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -34,6 +34,7 @@
     <link href="../files/slider/css/swiper.min.css" rel="stylesheet">
   <!-- Main Stylesheet File -->
   <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/blog.css" rel="stylesheet">
   <link href="../css/custom.css" rel="stylesheet">
 
 </head>

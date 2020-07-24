@@ -98,7 +98,7 @@ body{
     transition:all .5s;
 }
 .login-container .login-body input.form-control:focus + i{
-    color: #9742f2;
+    color: #00532f;
 }
 .login-container .login-body button {
     height: 50px;
@@ -116,14 +116,14 @@ body{
 
 .btn {
     color: white;
-    background-color: #9742f2;
+    background-color: #23d175;
     width: 100%;
     
 }
 
 .btn:hover {
     color: white;
-    background-color: #9742f2;
+    background-color: #0b9b5c;
 }
 
 
