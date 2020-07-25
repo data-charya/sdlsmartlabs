@@ -4,8 +4,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .g-recaptcha{
+            display: none;
+        }
+    </style>
   <meta charset="utf-8">
   <title>SDL SMARTLABS</title>
+  <!-- S.E.O -->
+  
+  <!--End of S>E.O-->
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -16,6 +24,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
   <link rel="manifest" href="img/favicon/site.webmanifest">
   <!-- Favicons End -->
+  <!-- Recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- End Recaptcha -->
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
@@ -34,6 +45,13 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/blog.css" rel="stylesheet">
+  <!-- Auth -->
+   <script>
+   function onSubmit(token) {
+     document.getElementById("form-demo").submit();
+   }
+ </script>
+ <!-- Auth -->
 
 </head>
 
@@ -46,8 +64,7 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">SDL SMARTLABS</a></h1>
-        <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>
+        <h1 style="color:white"><a href="#intro" class="scrollto"><a href="#intro"><img src="img/favicon/favicon.ico" alt="SDL" title="SDL" /></a>SMARTLABS</a></h1>
       </div>
 
       <nav id="nav-menu-container">
@@ -734,20 +751,21 @@
             <h4>Our Newsletter</h4>
             <p>Keep yourself updated with latest news from SDL SMARTLABS.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
+              <input type="email" name="email"><input type="submit"value="Subscribe">
             </form>
           </div>
 
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>SDL SMARTLABS</strong>. All Rights Reserved
       </div>
       <div class="credits">
     </div>
+    <button class="g-recaptcha" 
+        data-sitekey="6LfWsbUZAAAAAOL8pAkmI-2rAxgh5m4TRwxu7Czn" </button>
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
