@@ -1,10 +1,3 @@
-/**
-* Template Name: Vesperr - v2.2.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,11 +7,11 @@ body {
 }
 
 a {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 a:hover {
-  color: #5faee3;
+  color:  #6C63FF;
   text-decoration: none;
 }
 
@@ -45,13 +38,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #3498db;
+  background: #6C63FF;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #57aae1;
+  background:  #7e7af0;
   color: #fff;
 }
 
@@ -135,12 +128,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3498db;
+  color:  #6C63FF;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -148,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #57aae1;
+  background:  #6C63FF;
   color: #fff;
 }
 
@@ -186,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 .nav-menu .drop-down > a:after {
@@ -281,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #3498db;
+  color:  #6C63FF;
   text-decoration: none;
 }
 
@@ -291,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -300,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #57aae1;
+  background:  #6C63FF;
   color: #fff;
 }
 
@@ -387,12 +380,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color:  #6C63FF;
+  border: 2px solid  #6C63FF;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
 }
 
@@ -493,7 +486,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background:  #6C63FF;
   display: inline-block;
 }
 
@@ -578,7 +571,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  color:  #6C63FF;
   line-height: 1;
 }
 
@@ -596,15 +589,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  color:  #6C63FF;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid  #6C63FF;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
   text-decoration: none;
 }
@@ -638,7 +631,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color:  #6C63FF;
   float: left;
 }
 
@@ -716,7 +709,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background:  #6C63FF;
   right: 0;
   top: 0;
   width: 100%;
@@ -732,7 +725,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background:  #6C63FF;
   transition: all 0.3s ease-in-out;
 }
 
@@ -767,7 +760,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 /*--------------------------------------------------------------
@@ -824,7 +817,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #3498db;
+  background:  #6C63FF;
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
@@ -862,7 +855,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 .features .icon-box:hover {
@@ -945,7 +938,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #3498db !important;
+  background-color:  #6C63FF !important;
 }
 
 @media (max-width: 767px) {
@@ -992,7 +985,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #3498db;
+  background:  #6C63FF;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1069,7 +1062,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1122,7 +1115,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 .team .member .social i {
@@ -1183,7 +1176,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #3498db;
+  color:  #6C63FF;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1215,7 +1208,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #3498db;
+  color:  #6C63FF;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1234,8 +1227,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #3498db;
-  color: #3498db;
+  border: 2px solid  #6C63FF;
+  color:  #6C63FF;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1244,22 +1237,22 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #3498db;
+  border-color:  #6C63FF;
 }
 
 .pricing .recommended .btn-buy {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #2383c4;
-  border-color: #2383c4;
+  background:  #6C63FF;
+  border-color:  #6C63FF;
 }
 
 /*--------------------------------------------------------------
@@ -1272,7 +1265,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  color:  #6C63FF;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1320,7 +1313,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color:  #6C63FF;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1329,11 +1322,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid  #6C63FF;
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background:  #6C63FF;
   color: #fff;
 }
 
@@ -1343,7 +1336,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color:  #6C63FF;
   float: left;
   line-height: 1;
 }
@@ -1411,7 +1404,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3498db;
+  background:  #6C63FF;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1420,7 +1413,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+  background:  #6C63FF;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1529,7 +1522,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #3498db !important;
+  background-color:  #6C63FF !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1590,7 +1583,7 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #3498db;
+  color:  #6C63FF;
 }
 
 html {
