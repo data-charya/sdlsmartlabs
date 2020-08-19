@@ -1476,26 +1476,6 @@ b {
   font-weight:bold;
 }
 /* same as footer section share options*/
-.social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #eee;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-.social-links a:hover {
-  background: #9742F2;
-  color: #fff;
-}
-
-
 
 @media (min-width:601px) and (max-width:1000px){
   .blog-post {
