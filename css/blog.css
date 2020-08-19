@@ -35,7 +35,7 @@
     content: "";
     width: 50px;
     height: 2px;
-    background: #9742F2;
+    background: #6C63FF;
     display: inline-block;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .swiper-slide .imgBx .blog-date {
-    background: #a149ff;
+    background: #6C63FF;
     width: 70px;
     position: absolute;
     top:0;
@@ -73,11 +73,11 @@
     font-weight: 600;
     background-color: white;
     width: 100%;
-    border: 2px solid #9742F2;
+    border: 2px solid #6C63FF;
     border-radius: 0px;
 }
 .swiper-slide .details button:hover {
-    background-color: #9742F2;
+    background-color: #6C63FF;
     color: white;
     transition: 0.9s;
 }
@@ -94,5 +94,5 @@
   }
   .swiper-pagination-bullet-active {
     color:#fff;
-    background: #007aff;
+    background: #6C63FF;
   }
