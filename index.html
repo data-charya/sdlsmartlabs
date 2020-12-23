@@ -1,813 +1,351 @@
-<?php require_once('config/config.php'); 
-      unset($_SESSION['readmore']);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>SDL SMARTLABS</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="css/blog.css" rel="stylesheet">
-<style>
-  .class-btn-style{
-    background-color: #6C63FF;
-    border: none;
-  }
-  .class-btn-style:hover {
-  background-color: #6860DE;
-}
-
-</style>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>SDL SMARTLABS | WEB DEVELOPMENT STARTUP</title>
+	<meta name="title" content="SDL SMARTLABS | WEB DEVELOPMENT STARTUP">
+	<meta name="description" content="A Startup Company based in India, that offers Full-Stack Web Development, User Interface Design, etc at a very reasonable cost. Contact us at support@sdlsmartlabs.co.in">
+	<meta content="sdlsmartlabs.com, sdlsmartlabs.tech, verify my certificate, vmc.sdlsmartlabs.co.in, Web Development startup, devops, iot, Mangalore, Karnataka, India, Low cost Web Development" name="keywords">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://sdlsmartlabs.co.in/">
+	<meta property="og:title" content="SDL SMARTLABS | WEB DEVELOPMENT STARTUP">
+	<meta property="og:description" content="A Startup Company based in India, that offers Full-Stack Web Development, User Interface Design, etc at a very reasonable cost. Contact us at support@sdlsmartlabs.co.in">
+	<meta property="og:image" content="assets/img/android-chrome-512x512.png">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://sdlsmartlabs.co.in">
+	<meta property="twitter:title" content="SDL SMARTLABS | WEB DEVELOPMENT STARTUP">
+	<meta property="twitter:description" content="A Startup Company based in India, that offers Full-Stack Web Development, User Interface Design, etc at a very reasonable cost. Contact us at support@sdlsmartlabs.co.in">
+	<meta property="twitter:image" content="assets/img/android-chrome-512x512.png">
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
+	<style>
+		.class-btn-style{background-color:#6C63FF;border:none}.class-btn-style:hover{background-color:#6860DE}html{overflow:scroll;overflow-x:hidden}::-webkit-scrollbar{width:0px;background:transparent}::-webkit-scrollbar-thumb{background:#F00}
+	</style>
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-      <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>SDL SMARTLABS</span></a></h1>
-      </div>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#index.html">HOME</a></li>
-          <li><a href="#about">ABOUT US</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#team">TEAM</a></li>
-          <li><a href="#blog">BLOGS</a></li>
-          <li><a href="#contact">CONTACT US</a></li>
-
-          <li class="get-started"><a href="#about">Get Started</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Grow your business with Vesperr</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talanted designers making websites with Bootstrap</h2>
-          <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients clients d-none d-lg-block">
-      <div class="container">
-
-        <div class="row ">
-          
-          
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>About Us</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-simple-smile"></i>
-                    <span data-toggle="counter-up">65</span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-document-folder"></i>
-                    <span data-toggle="counter-up">85</span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-clock-time"></i>
-                    <span data-toggle="counter-up">12</span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-award"></i>
-                    <span data-toggle="counter-up">15</span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= More Services Section ======= -->
-    <section id="more-services" class="more-services">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style='background-image: url("assets/img/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Limere Radses</a></h5>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Nive Lodo</a></h5>
-                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Pale Treda</a></h5>
-                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End More Services Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Features</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Lorem Ipsum</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">Dolor Sitema</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">Sed perspiciatis</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">Magni Dolores</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">Nemo Enim</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">Eiusmod Tempor</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">Midela Teren</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">Pira Neve</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">Dirada Pack</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">Moton Ideal</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">Verdo Park</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">Flavor Nivelanda</a></h3>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
-        </div>
-
-        <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="testimonial-wrap">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="testimonial-wrap">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-        <div class="testimonial-wrap">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-       <!--   <div class="testimonial-wrap">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="testimonial-wrap">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-        </div> -->
-
-      </div>
-    </section><!-- End Testimonials Section -->
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="img/team/Vignesh.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:vignesh@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="img/team/Shanwill.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:shanwill@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="img/team/Shaun.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:shaun@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="img/team/Nireekshith.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:nireekshith@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="img/team/Sriganesh.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:sriganesh@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="img/team/Vaibhav.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:vaibhav@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="img/team/Pranith.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:pranith@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="img/team/Rahul.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:rahul@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="img/team/Naxatra.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:naxatra@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="img/team/Novin.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                  <a href="mailto:novin@sdlsmartlabs.co.in"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-        <!-- ************************************************************* 
-      ---- Blog Section start's
-  ******************************************************************-->
-  <section id="blog" style="margin-top: 30px; padding-top: 30px;" class="silder-bg wow fadeInUp">
-    <div class="container">
-      <div class="swiper-container">
-        <div class="swiper-title">
-          <h2>Our Blog</h2>
-        </div>
-        <div class="swiper-wrapper">
-          <?php main_display(1); 
-          main_display(2); ?>
-        </div>
-        <!-- Add Pagination -->
-      </div>
-    </div>
-
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </section>
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-              <h3>SDL SMARTLABS</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div>
-                <i class="ri-mail-send-line"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="ri-phone-line"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-          <form action="https://formsubmit.co/sdlsmartlabs@gmail.com" method="POST" />
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="text-center"><button type="submit" class="btn btn-primary class-btn-style">Send Message</button></div>
-                            
-              <input type="hidden" name="_template" value="table">
-              <input type="hidden" name="_autoresponse" value="Thanks for contacting us! We will reach you as soon as possible.">
-              <input type="hidden" name="_next" value="https://sdlsmartlabs.co.in/#contact">
-
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-6 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>SDL SMARTLABS</strong>. All Rights Reserved
-          </div>
-          <div class="credits" style="color: white;">Designed by <a href="https://bootstrapmade.com/" style="color: white;">BootstrapMade</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-      (function(){
-      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/5f0577ba223d045fcb7b85c5/default';
-      s1.charset='UTF-8';
-      s1.setAttribute('crossorigin','*');
-      s0.parentNode.insertBefore(s1,s0);
-      })();
-      </script>
-      <!--End of Tawk.to Script-->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Slider Script files-->
-  <script src="files/slider/js/swiper.js"></script>
-  <script src="files/slider/js/script.js"></script>
-  <script src="files/slider/js/swiper.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+	<header id="header" class="fixed-top d-flex align-items-center">
+		<div class="container d-flex align-items-center">
+			<div class="logo mr-auto">
+				<h1 class="text-light"><a href="https://sdlsmartlabs.co.in"><span>SDL SMARTLABS</span></a></h1>
+			</div>
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li class="active"><a href="https://sdlsmartlabs.co.in">HOME</a>
+					</li>
+					<li><a href="#about">ABOUT US</a>
+					</li>
+					<li><a href="#services">SERVICES</a>
+                    </li>
+                    <li class="drop-down"><a href="">PROJECTS</a>
+                        <ul>
+                          <li class="drop-down"><a href="https://cgvcertify.herokuapp.com">Online Certificate Verification System</a>
+                            <ul>
+                              <li><a href="https://cgvcertify.herokuapp.com/login">Online Certificate Verification System Dashboard</a></li>
+                            </ul>
+						  </li>
+						  <li class="drop-down"><a href="https://vignesh-blog.herokuapp.com">Developer Blog</a>
+							<li class="drop-down"><a href="https://seoapi.herokuapp.com">S.E.O API</a>
+								<li class="drop-down"><a href="https://bulkmailer.cf">Bulk Mailer For Organizations</a>
+                        </ul>
+                      </li>
+					<li><a href="#blog">BLOGS</a>
+                    </li>
+					<li><a href="#contact">CONTACT US</a>
+                    </li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="hero" class="d-flex align-items-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+					<c>
+						<h1 data-aos="fade-up">We design and develop elegant web, mobile and IoT solutions that are made to scale.</h1> 
+					</c>
+					<h2 data-aos="fade-up" data-aos-delay="400"></h2>
+					<div data-aos="fade-up" data-aos-delay="800"> <a href="#about" class="btn-get-started scrollto">Get Started</a>
+					</div>
+				</div>
+				<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+					<img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<main id="main">
+		<section id="clients" class="clients clients d-none d-lg-block">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12" style="color: black;">
+						<h2>We are <strong>Best In</strong></h2>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="about">
+			<div class="container">
+				<div class="section-title" data-aos="fade-up">
+					<h2>About Us</h2>
+				</div>
+				<div class="row content">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+						<p>We ensure that all our projects are not only engineered using the most cutting edge technologies, but also they're created through a human-centred design process.</p>
+						<ul>
+							<li><i class="ri-check-double-line"></i>Experienced team of highly professional/talented engineers.</li>
+							<li><i class="ri-check-double-line"></i>On-time project delivery with 100% satisfaction.</li>
+							<li><i class="ri-check-double-line"></i>Quality of work is guaranteed.</li>
+							<li><i class="ri-check-double-line"></i>Cost Effective Services.</li>
+							<li><i class="ri-check-double-line"></i>Communication via Chat/Email/Phone</li>
+							<li><i class="ri-check-double-line"></i>Honest and open relationship with all our clients.</li>
+							<li><i class="ri-check-double-line"></i>Result-oriented approach from beginning to end of the project.</li>
+						</ul>
+					</div>
+					<div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+						<p>Looking for robust and flawless Web Development Services?
+							<br>
+							<br>From creating simple yet engaging websites, web maintenance, content management system, SaaS development. SDL SMARTLABS also provide great offer pricing in website hosting. With hands on expertise in different and latest technologies and frameworks, our team makes sure that you scale new heights.</p> <a href="#" class="btn-learn-more">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="counts" class="counts">
+			<div class="container">
+				<div class="row">
+					<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+						<img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+					</div>
+					<div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+						<div class="content d-flex flex-column justify-content-center">
+							<div class="row">
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box"> <i class="icofont-simple-smile"></i>  <span data-toggle="counter-up">3</span>
+										<p><strong>Happy Clients</strong>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box"> <i class="icofont-document-folder"></i>  <span data-toggle="counter-up">10</span>
+										<p><strong>Projects</strong>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box"> <i class="icofont-clock-time"></i>  <span data-toggle="counter-up">1</span>
+										<p><strong>Years of experience</strong>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="services" class="services">
+			<div class="container">
+				<div class="section-title" data-aos="fade-up">
+					<h2>Services</h2>
+					<p>We offer the full spectrum of services to help organizations work better.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+						<div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+							<h4 class="title"><a href=""> Full-Stack Development</a></h4>
+							<p class="description">Our web technology stack includes all the latest industry standard technologies that enable lean and agile development for the development of complex web applications for clients ranging from large enterprises to startups, across the globe. We are experienced in frontend framework such as Bootstrap. We use php scripting language for backend.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+						<div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+							<h4 class="title"><a href="">User Interface Design</a></h4>
+							<p class="description">We offer the excellent Responsive web design services making the website effective and easy to use on any device. Clean, crisp & minimal designs using the best & latest UI UX techniques for improving your target audience engagement. We are experienced in using top designing tools such has Adobe XD, Figma, Sketch etc..</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+						<div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+							<h4 class="title"><a href="">IOT Services</a></h4>
+							<p class="description">Strategic decisions, operational advancements, and industry innovations.IoT expertise to improve operational efficiencies, enhance user experiences and create a digital business by connecting people, process and information together. We develop a high load IoT services to monitor and manage hundreds of thousands distributed devices/sensors in real time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+						<div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+							<h4 class="title"><a href="">DevOps</a></h4>
+							<p class="description">Our team of DevOps and managed services experts help our clients effectively manage their entire IT operations. We help them reduce their costs by providing highly trained IT resources who can make an immediate impact on their business. We are experienced in Amazon Web Services, Microsoft Azure, GitLab, WordPress etc..</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+		</section>
+		<!-- <section id="blog" style="margin-top: 30px; padding-top: 30px;" class="silder-bg wow fadeInUp">
+			<div class="container">
+				<div class="swiper-container">
+					<div class="swiper-title">
+						<h2>Our Blog</h2>
+					</div>
+					<div class="swiper-wrapper">
+						<?php main_display(1); main_display(2); ?>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</section> -->
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="section-title" data-aos="fade-up">
+					<h2>Contact Us</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+						<div class="contact-about">
+							<h3>SDL SMARTLABS</h3>
+							<p>A Startup Company based in India, that offers Full-Stack Web Development, User Interface Design, etc at a very reasonable cost.</p>
+							<div class="social-links"> <a href="https://twitter.com/labssdl" class="twitter"><i class="icofont-twitter"></i></a>  <a href="https://facebook.com/sdlsmartlabs" class="facebook"><i class="icofont-facebook"></i></a>  <a href="https://instagram.com/sdlsmartlabs" class="instagram"><i class="icofont-instagram"></i></a>  <a href="https://linkedin.com/company/sdlsmartlabs" class="linkedin"><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+						<div class="info">
+							<div> <i class="ri-map-pin-line"></i>
+								<p>Mangalore
+									<br>Karnataka, India</p>
+							</div>
+							<div> <i class="ri-mail-send-line"></i>
+								<p>support@sdlsmartlabs.co.in</p>
+							</div>
+							<div> <i class="ri-phone-line"></i>
+								<p>+91 9110 8269 33</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+						<form action="https://formsubmit.co/support@sdlsmartlabs.co.in" method="POST" />
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+							<div class="validate"></div>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+							<div class="validate"></div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<div class="validate"></div>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+							<div class="validate"></div>
+						</div>
+						<div class="text-center">
+							<button type="submit" class="btn btn-primary class-btn-style">Send Message</button>
+						</div>
+						<input type="hidden" name="_template" value="table">
+						<input type="hidden" name="_autoresponse" value="Thanks for contacting us! We will reach you as soon as possible.">
+						<input type="hidden" name="_next" value="https://sdlsmartlabs.co.in/#contact">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-lg-6 text-lg-left text-center">
+					<div class="copyright">&copy; Copyright <strong>SDL SMARTLABS</strong>. All Rights Reserved</div>
+					<div class="credits" style="color: white;">Designed by <a href="https://bootstrapmade.com/" style="color: white;">BootstrapMade</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<nav class="footer-links text-lg-right text-center pt-2 pt-lg-0"> <a href="#intro" class="scrollto">Home</a>  <a href="#about" class="scrollto">About</a>  <a href="#">Privacy Policy</a>  <a href="#">Terms of Use</a> 
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer> <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> 
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/5f0577ba223d045fcb7b85c5/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();
+	</script>
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="assets/vendor/counterup/counterup.min.js"></script>
+	<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/venobox/venobox.min.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="files/slider/js/swiper.js"></script>
+	<script src="files/slider/js/script.js"></script>
+	<script src="files/slider/js/swiper.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script language=JavaScript>
+//Disable right mouse click Script
+
+var message="Function Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+ }
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
 </body>
 
 </html>

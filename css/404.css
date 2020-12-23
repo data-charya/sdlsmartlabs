@@ -20,14 +20,20 @@
  font-size:80px;
  }
  
-  .four_zero_four_bg h3{
+ .four_zero_four_bg h3{
 			 font-size:80px;
 			 }
 			 
-			 .link_404{			 
-	color: #fff!important;
+.link_404{
+	text-decoration: none;
+	color: #fff;
     padding: 10px 20px;
-    background: #9742F2;
+    background: #6C63FF;
     margin: 20px 0;
-    display: inline-block;}
-	.contant_box_404{ margin-top:-50px;}
+    display: inline-block;
+    }
+    
+.contant_box_404{
+	    margin-top:-50px;}
+	
+	
